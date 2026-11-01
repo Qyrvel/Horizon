@@ -29,6 +29,10 @@
       "finance-news": {
         "threshold": 7,
         "topic_dedup": true
+      },
+      "world-news": {
+        "threshold": 7,
+        "topic_dedup": true
       }
     }
   },
@@ -120,6 +124,62 @@
         "enabled": true,
         "category": "linux-kernel",
         "profile": "tech-news"
+      },
+      {
+        "name": "BBC News - World",
+        "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+        "enabled": true,
+        "category": "world-news",
+        "profile": "world-news"
+      },
+      {
+        "name": "The Guardian - World",
+        "url": "https://www.theguardian.com/world/rss",
+        "enabled": true,
+        "category": "world-news",
+        "profile": "world-news"
+      },
+      {
+        "name": "Al Jazeera English",
+        "url": "https://www.aljazeera.com/xml/rss/all.xml",
+        "enabled": true,
+        "category": "world-news",
+        "profile": "world-news"
+      },
+      {
+        "name": "Deutsche Welle - English",
+        "url": "https://rss.dw.com/xml/rss-en-all",
+        "enabled": true,
+        "category": "world-news",
+        "profile": "world-news"
+      },
+      {
+        "name": "France 24 - English",
+        "url": "https://www.france24.com/en/rss",
+        "enabled": true,
+        "category": "world-news",
+        "profile": "world-news"
+      },
+      {
+        "name": "WHO - News (English)",
+        "url": "https://www.who.int/rss-feeds/news-english.xml",
+        "enabled": true,
+        "category": "public-health",
+        "profile": "world-news"
+      },
+      {
+        "name": "Reuters World (via Google News)",
+        "url": "https://news.google.com/rss/search?q=site%3Areuters.com%2Fworld+when%3A24h&hl=en-US&gl=US&ceid=US%3Aen",
+        "enabled": true,
+        "category": "world-news",
+        "profile": "world-news"
+      },
+      {
+        "name": "AP News (via Google News)",
+        "url": "https://news.google.com/rss/search?q=site%3Aapnews.com+when%3A24h&hl=en-US&gl=US&ceid=US%3Aen",
+        "enabled": true,
+        "category": "world-news",
+        "profile": "world-news"
       }
     ],
     "reddit": {
@@ -170,6 +230,7 @@
     "profile_order": [
       "tech-news",
       "tech-blog",
+      "world-news",
       "finance-news"
     ],
     "category_groups": {},
